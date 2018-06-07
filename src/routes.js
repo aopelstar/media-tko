@@ -9,6 +9,7 @@ import Work from './components/work/Work';
 export default (
     <HashRouter>
         <Switch>
+            <Route exact path ='/' component = { Splash } />
         </Switch>
     </HashRouter>
 

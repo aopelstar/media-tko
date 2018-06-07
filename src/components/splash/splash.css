@@ -1,0 +1,127 @@
+:root{
+    --gold: #d4af35;
+    --white: #fff;
+    --black: rgba(0, 0, 0, 0.7);
+}
+/* iPhone 5/se tall */
+
+.splash-logo{
+    position: absolute;
+    height: 55px;
+    width: 95px;
+    bottom: 10px;
+    left:10px;
+}
+
+.splash-button-container{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 65%;
+}
+
+.splash-button{
+    height: auto;
+    width: auto;
+    background-color: var(--black);
+    border: none;
+    color: var(--gold);
+    border-radius: 10px;
+    outline: none;
+    font-size: 6vh;
+    font-family: 'Lato', sans-serif;
+}
+
+/* iPhone 6/7/8/x tall */
+@media(min-width: 375px){ 
+
+    .splash-logo{
+        height: 70px;
+        width: 110px;
+    }
+
+    .splash-button{
+        font-size: 4.5vh;
+    }
+}
+
+
+ /* iPhone 5/se wide */
+@media(min-width:550px){
+    .splash-button-container{
+        top: 50%;
+    }
+
+    .splash-button{
+        font-size: 10.5vh;
+    }
+}
+
+
+/* iPhone 6/7/8/x wide */
+@media(min-width:650px){
+
+    .splash-button{
+        font-size: 9vh;
+    }
+
+    .splash-button:hover{
+        background-color: rgba(0, 0, 0, 1);
+        transition: 1.5s;
+    }
+}
+
+/* iPad tall */
+@media(min-width:750px ){
+    .splash-logo{
+        height: 110px;
+        width: 185px;
+    }
+
+}
+
+/* iPad wide */
+@media(min-width: 1000px){
+    .splash-button{
+        font-size: 10vh;
+    }
+}
+
+
+/* normal monitor */
+@media(min-width: 1200px){
+    
+    .splash-main{
+    background-color: var(--black);
+}
+
+.splash-logo{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    bottom: 10px;
+    left: 10px;
+}
+.splash-button-container{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 75%;
+    
+}
+.splash-button{
+    height: 75px;
+    width: 200px;
+    background-color: var(--black);
+    color: var(--gold);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 3vh;
+}
+
+
+
+}
