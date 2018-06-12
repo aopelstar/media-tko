@@ -10,6 +10,10 @@ export default (
     <HashRouter>
         <Switch>
             <Route exact path ='/' component = { Splash } />
+            <Route path ='/home' component = { Home } />
+            <Route path ='/about' component = { About } />
+            <Route path ='/packages' component = { Packages } />
+            <Route path ='/work' component = { Work } />
         </Switch>
     </HashRouter>
 
