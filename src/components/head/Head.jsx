@@ -26,14 +26,15 @@ export default class Head extends Component {
                     </div>
                     <div className={this.state.display?"menu menu-hide":"menu"}>
                         <div className="menu-items">
-                            <Link to ='/home'><div className="home-container">home</div></Link>
-                            <Link to ='/about'><div className="about-container">about</div></Link>
+                            {/* <Link to ='/home'><div className="home-container">home</div></Link> */}
                             <Link to ='/work'><div className="work-container">work</div></Link>
+                            <Link to ='/about'><div className="about-container">about</div></Link>
                             <Link to ='/packages'><div className="packages-container">packages</div></Link>
                             <Link to ='/contact'><div className="contact-container">contact</div></Link>
                         </div>
                     </div>
                 </div>
+                
             </div>
         )
     }

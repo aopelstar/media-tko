@@ -1,0 +1,13 @@
+
+.video-container{
+    align-content: center;
+    width: 50%;
+    padding: 0;
+}
+
+.work-video{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+}
