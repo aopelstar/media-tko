@@ -6,7 +6,7 @@
     z-index: -2;
 }
 
-.video-main Video {
+.video-main Video{
     min-width: 100%;
     min-height: 100vh;
     width: auto;

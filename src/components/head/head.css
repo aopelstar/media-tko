@@ -4,7 +4,7 @@
 }
 
 .hamburger-icon{
-    position: absolute;
+    position: fixed;
     top: 5px;
     left: 5px;
     height: 25px;
@@ -14,7 +14,7 @@
 }
 
 .menu{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
