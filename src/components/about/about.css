@@ -1,38 +1,100 @@
-.about-container{
-    width: 70%;
-    margin: 40px auto;
-    display: flex;
-    flex-direction: column;
-    background: var(--black);
-    border-radius: 10px;
+
+
+
+@media(min-width: 1200px){
+
+    .about-head{
+        display: flex;
+        flex-direction: column;
+    }
     
-}
-
-.about-logo-container{
-    margin: auto;
-}
-
-.about-logo{
-    height: 150px;
-    width: 200px;
+    .about-container{
+        width: 70%;
+        margin: 40px auto;
+        display: flex;
+        flex-direction: column;
+        background: var(--black);
+        border-radius: 10px;
+        
+    }
     
-}
+    .about-logo-container{
+        margin: auto;
+    }
+    
+    .about-logo{
+        height: 150px;
+        width: 200px;
+        
+    }
+    
+    .about-text{
+        margin: 10px auto;
+        color: var(--gold);
+        font-family: 'Lato', sans-serif;
+        font-size: 2vw;
+        padding: 2%;
+        text-align: center;
+    }
+    
+    .about-headshot-container{
+        display: flex;
+        flex-direction: row;
+        background: var(--black);
+        justify-content: space-around;
+        padding: 2%;
+        width: 70%;
+        margin: auto;
+        border-radius: 10px;
+        
+    }
+    
+    .about-headshot-1, .about-headshot-2 {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 250px;
+        border-radius: 10px;
+        border: solid var(--gold) 2px;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
 
-.about-text{
-    margin: 10px auto;
-    color: var(--gold);
-    font-family: 'Lato', sans-serif;
-    font-size: 2vw;
-    padding: 2%;
-    text-align: center;
-}
+    .about-headshot-1{
+        background-image:url("https://res.cloudinary.com/media-tko/image/upload/v1529946468/headshots/23549932_10211050040742989_684165768730466141_o.jpg");
+        background-size: cover;
+        
+    }
+    
+    .about-headshot-1-hidden, .about-headshot-2-hidden{
+        background-blend-mode: darken;
+    }
 
-.about-headshot-container{
-    display: flex;
-    flex-direction: row;
-}
+    .about-headshot-2{
+        background-image: url("https://res.cloudinary.com/media-tko/image/upload/v1529946575/headshots/10269041_10152456440966894_5145575433302114207_o.jpg");
+        background-size: cover;
+    }
+    
+    
+    
+    .about-headshot-name{
+        color: var(--gold);
+        font-size: 3vh;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        margin: 10px;
+    }
 
-.about-headshot{
-    height: 150px;
-    width: 100px;
+   .about-headshot-text-hidden{
+       color: var(--gold);
+       font-family: 'Lato' sans-serif;
+       font-size: 4vh;
+       text-align: center;
+        visibility: hidden;
+
+    }
+
+    .about-headshot-text{
+        visibility: visible;
+
+    }
 }
