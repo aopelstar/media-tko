@@ -1,0 +1,17 @@
+.contact-main{
+    background: black;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    color: var(--gold);
+}
+
+.contact-inputs-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-inputs-container>div{
+    display: flex;
+    flex-direction: row;
+}
