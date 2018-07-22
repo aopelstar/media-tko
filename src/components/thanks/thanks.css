@@ -1,0 +1,40 @@
+.thanks-main{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: var(--gold);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+    
+   
+}
+
+.thanks-container, .thanks-text, .thanks-button-container{
+    margin: 55px auto;
+
+}
+
+.thanks-container{
+    font-size: 6vw;
+}
+
+.thanks-text{
+    padding: 0 55px;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.thanks-button{
+    height: 75px;
+    width: auto;
+    background-color: var(--gold);
+    color: var(--black);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 6.5vh;
+    
+}
+

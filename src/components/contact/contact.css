@@ -4,14 +4,59 @@
     width: 100vw;
     overflow: hidden;
     color: var(--gold);
-}
-
-.contact-inputs-container{
+    font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
 }
 
+.contact-title{
+    font-size: 5vw;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.contact-title>h2 {
+    font-size: 5.5vw;
+
+}
+
+
+.contact-inputs-container{
+    width: 100%;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .contact-inputs-container>div{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 300px;
+    font-size: 4.5vw;
+}
+
+.contact-inputs-container input{
+    height: 4.5vh;
+    width: 350px;
+    font-size: 3.5vw;
+}
+
+.contact-submit{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.contact-button{
+    height: auto;
+    width: auto;
+    background-color: var(--gold);
+    color: var(--black);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 6vh;
+    font-family: 'Lato', sans-serif;
+    transition: 1.5s;
 }
