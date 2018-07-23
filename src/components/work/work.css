@@ -1,13 +1,48 @@
+/* iPhone 5/se tall */
+
 .work-main{
     background-color: black;
     height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
+    background-attachment: fixed;
+    
 
 }
 
-.work-video{
-  width: 50%;
-  height: 400px;
+.video-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
 
+.work-video{
+  width: 100%;
+  height: auto;
+
+}
+
+/* iPhone 5/se wide */
+
+@media(min-width:550px){
+  .work-video{
+    width: auto;
+    height: 100vh;
+  }
+
+}
+
+
+/* iPad tall */
+@media(min-width:750px){
+  .work-video{
+    height: auto;
+    width: 100vw;
+  }
+}
+
+/* ipad wide */
+@media(min-width: 1000px){
+  .work-video{
+    height: 100vh;
+    width: auto;
+  }
 }

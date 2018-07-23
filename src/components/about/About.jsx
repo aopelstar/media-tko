@@ -31,7 +31,7 @@ export default class About extends Component{
     render() {
 
         return (
-            <div>
+            <div className="about-main">
                 <Head />
                 <div className="about-head">
                     <div className="about-container">
@@ -49,8 +49,8 @@ export default class About extends Component{
                         <div>
                             <div onMouseEnter={this.handleHover} onMouseLeave={this.handleHover} className={this.state.image1 ? "about-headshot-1 about-headshot-1-hidden" : "about-headshot-1"}>
                                 <div className={this.state.image1 ? "about-headshot-text about-headshot-text-hidden" : "about-headshot-text-hidden"}>
-                                    Drew is a total dick.  He won't even come to my house party.
-                                     blah blah blah we are all friends in the end.  We all go the same way home.
+                                    Drew is a true homie but can sometimes be a dick during video games.
+                                    He tries his best in every single thing and sometimes we fight.
                             </div>
                             </div>
                             <div className="about-headshot-name">

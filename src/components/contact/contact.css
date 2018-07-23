@@ -1,62 +1,177 @@
-.contact-main{
-    background: black;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    color: var(--gold);
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    flex-direction: column;
+
+    .contact-main{
+        background: black;
+        min-height: 100vh;
+        height: auto;
+        width: 100vw;
+        color: var(--gold);
+        font-family: 'Lato', sans-serif;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .contact-title{
+        font-size: 8vw;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+
+    .contact-title>h2 {
+        font-size: 8.5vw;
+        font-weight: 500;
+        
+    }
+
+    .contact-inputs-container{
+        width: 100%;
+        height: auto; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-inputs-container>div{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 30px;
+        font-size: 6.5vw;
+    }
+
+    .contact-inputs-container input{
+        height: auto;
+        width: auto;
+        font-size: 3.5vw;
+    }
+
+
+    .contact-submit{
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+    }
+
+    .contact-button{
+        height: auto;
+        width: auto;
+        background-color: var(--gold);
+        color: var(--black);
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        font-size: 6vh;
+        font-family: 'Lato', sans-serif;
+    }
+
+
+@media(min-width:375px){
+
+    .contact-inputs-container>div{
+        font-size: 7vw;
+    }
 }
 
-.contact-title{
-    font-size: 5vw;
-    text-align: center;
-    margin: 50px auto;
+@media(min-width:550px){
+
+    .contact-title{
+        font-size: 6vh;
+        margin: 20px auto;
+    }
+
+    .contact-title>h2 {
+        font-size: 6.5vw;
+        
+    }
+
+    .contact-inputs-container>div{
+        margin: 10px 70px;
+        font-size: 3.5vw;
+    }
+
+    .contact-inputs-container input{
+        height: 2.5vw;
+        width: auto;
+        font-size: 3.5vw;
+    }
+
+    .contact-submit{
+        margin: 15px;
+    }
+    
 }
 
-.contact-title>h2 {
-    font-size: 5.5vw;
-
+/* iphone 6/7/8 wide */
+@media(min-width:650px){
+    .contact-submit{
+        margin: 35px auto;
+    }
 }
 
+/* ipad tall */
+@media(min-width:750px){
+    .contact-title{
+        font-size: 8vh;
+        margin: 55px auto;
+    }
 
-.contact-inputs-container{
-    width: 100%;
-    height: auto; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    .contact-title>h2 {
+        font-size: 8.5vw;
+        
+    }
+
+    .contact-inputs-container>div{
+        margin: 30px 70px;
+        font-size: 7.5vw;
+    }
+
+    .contact-inputs-container input{
+        height: 6.5vw;
+        width: 300px;
+        font-size: 5.5vw;
+    }
+
+    .contact-submit{
+        margin: 100px auto;
+    }
 }
 
-.contact-inputs-container>div{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 300px;
-    font-size: 4.5vw;
+/* iPad wide */
+@media(min-width:1000px){
+
+    .contact-title{
+        margin-top:25px;
+    }
+    .contact-inputs-container>div{
+        margin: 20px 70px;
+        font-size: 5.5vw;
+    }
+
+    .contact-inputs-container input{
+        height: 4.5vw;
+        width: 300px;
+        font-size: 3.5vw;
+    }
+
+    .contact-submit{
+        margin: 50px auto 0px auto;
+    }
 }
 
-.contact-inputs-container input{
-    height: 4.5vh;
-    width: 350px;
-    font-size: 3.5vw;
-}
+/* normal monitor */
+@media(min-width:1200px){
+    .contact-inputs-container>div{
+        margin: 15px 200px;
+        font-size: 4.5vw;
+    }
 
-.contact-submit{
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-}
-
-.contact-button{
-    height: auto;
-    width: auto;
-    background-color: var(--gold);
-    color: var(--black);
-    border: none;
-    border-radius: 10px;
-    outline: none;
-    font-size: 6vh;
-    font-family: 'Lato', sans-serif;
-    transition: 1.5s;
+    .contact-inputs-container input{
+        height: 3.5vw;
+        width: 300px;
+        font-size: 2.5vw;
+    }
+    
+    .contact-submit{
+        margin-top: 35px;
+    }
 }

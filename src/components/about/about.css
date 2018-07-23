@@ -1,46 +1,94 @@
+.about-main{
+    background-color: black;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto; 
+    background-attachment: fixed;
 
+}
+
+.about-head{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container{
+    width: 100vw;
+    margin: 45px auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about-logo-container{
+    margin: auto;
+}
+
+.about-logo{
+    height: 150px;
+    width: auto;
+    
+}
+
+
+.about-text{
+    margin: 20px auto;
+    color: var(--gold);
+    font-family: 'Lato', sans-serif;
+    font-size: 8vw;
+    padding: 2%;
+    text-align: center;
+}
+
+.about-headshot-container{
+    display: none;
+
+}
+
+
+ /* iPhone 5/se wide */
+ @media(min-width:550px){
+     .about-logo{
+         height: 85px;
+
+     }
+
+     .about-text{
+         font-size: 4vw;
+     }
+
+}
+
+@media(min-width:750px){
+    .about-logo{
+        height: 200px;
+    }
+
+    .about-text{
+        font-size: 7.5vw;
+    }
+}
+
+@media(min-width:1000px){
+    .about-logo{
+        height: 150px;
+    }
+
+    .about-text{
+        font-size: 6vw;
+    }
+}
 
 
 @media(min-width: 1200px){
 
-    .about-head{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .about-container{
-        width: 70%;
-        margin: 40px auto;
-        display: flex;
-        flex-direction: column;
-        background: var(--black);
-        border-radius: 10px;
-        
-    }
-    
-    .about-logo-container{
-        margin: auto;
-    }
-    
-    .about-logo{
-        height: 150px;
-        width: 200px;
-        
-    }
-    
     .about-text{
-        margin: 10px auto;
-        color: var(--gold);
-        font-family: 'Lato', sans-serif;
-        font-size: 2vw;
-        padding: 2%;
-        text-align: center;
+        font-size: 4vw;
     }
     
     .about-headshot-container{
         display: flex;
         flex-direction: row;
-        background: var(--black);
         justify-content: space-around;
         padding: 2%;
         width: 70%;
