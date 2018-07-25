@@ -28,9 +28,9 @@ export default class Contact extends Component {
             telephone: this.state.telephone,
             message: this.state.message
         }
-        let promise = axios.post('http://localhost:6543/api/sendEmail', body)
+        let promise = axios.post('/api/sendEmail', body)
         promise.then( () => {
-            window.location.assign('http://localhost:9999/#/thanks');
+            window.location.assign('/#/thanks');
             
         })
     }

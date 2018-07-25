@@ -8,7 +8,8 @@ require('dotenv').config();
 // server creation
 const app = express();
 app.use( bodyParser.json() );
-app.use( cors() );
+
+app.use( express.static( `${__dirname}/../build` ) );
 
 // cloudinary endpoints
 app.get('/api/videos', cloudinary_cont.getGallery)
