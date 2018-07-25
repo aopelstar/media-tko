@@ -9,7 +9,7 @@ export default function Splash(){
             <Video />
             <img src="https://res.cloudinary.com/media-tko/image/upload/v1528257711/logos/tko_tagline_gold.png" alt="logo" className="splash-logo" />
             <div className="splash-button-container">
-               <Link to='/work'> <button className="splash-button">Get It</button></Link>
+               <Link to='/about'> <button className="splash-button">Get It</button></Link>
             </div>
         </div>
     )
